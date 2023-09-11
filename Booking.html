@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Earl's Regency Hotel</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+        <link rel="manifest" href="./site.webmanifest">
+        <link rel="stylesheet" href="EarlStyle.css">
+    </head>
+    <body>
+        <header class="header">
+            <a href="https://www.aitkenspencehotels.com/earlsregency/" id="logo"><img src="logo.png" alt="Earl's Regency Logo"></a>
+            <nav class="navbar">
+    
+                <a href="index.html"><div id="button">Home</div></a>
+                <a href="accommodation.html"><div id="button">Accommodation</div></a>
+                <a href="Dining.html"><div id="button">Dining</div></a>
+                <a href="Activities.html"><div id="button">Activities</div></a>
+                <a href="Hotels.html"><div id="button">Hotels</div></a>
+                <a href="Offers.html"><div id="button">offers</div></a>
+                <a href="Gallery.html"><div id="button">Gallery</div></a>
+                <a href="Booking.html"><div id="button">Booking</div></a>
+            </nav>
+        </header> 
+
+        <div class="slider2">
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+        
+                <div class="slide first">
+                    <img src="19.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="20.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="1.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="17.jpg" alt="">
+                </div>
+        
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+        
+            </div>
+        
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
+        </div>
+        
+        <script type="text/javascript">
+            var counter = 1;
+            setInterval(function(){
+                document.getElementById('radio' + counter).checked = true;
+                counter++;
+                if (counter > 4){
+                    counter = 1;
+                }
+            }, 5000);
+        </script>
+    <section class="booking-foam">Booking Foam</section>
+    <section class="booking-des">Book with us, right here and we’ll treat you to special rates and other benefits.</section>
+    <table class="foam">
+    <form class="form-de">
+        <tr>
+            <td><lable for="Title" class="det">Title</lable></td>
+            <td class="title"><input type="radio" Name="Title" Value="Mr" class="title1">  Mr
+                <input type="radio" Name="Title" Value="Mrs" class="title1">  Mrs
+                <input type="radio" Name="Title" Value="Master" class="title1">  Master
+                <input type="radio" Name="Title" Value="Ms" class="title1">  Ms</td>
+        </tr>
+        <tr>
+            <td><lable for="Name" class="det">Full Name</lable></td>
+            <td><input type="text" size="50" Maxlength="50" required="Required"></td>
+        </tr>
+        <tr>
+            <td><lable for="Telephone" class="det">Telephone No</lable></td>
+            <td><input type="text" size="15" Maxlength="10"></td>
+        </tr>
+        <tr>
+            <td><lable for="Email" class="det">Email</lable></td>
+            <td><input type="email" size="50" Maxlength="60" ></td>
+        </tr>
+        <tr>
+            <td><lable for="NIC" class="det">NIC</lable></td>      
+            <td><input type="text" size="13" Maxlength="16"></td>
+        </tr>
+        <tr>
+            <td><lable for="Address" class="det">Address</lable></td>
+            <td><textarea type="text" Cols="60" Rows="5"></textarea></td>
+        </tr>
+        <tr>
+            <td><label for="How Many People" class="det">How Many People</label></td>
+            <td><select Name="How Many People" Maxlength="15">
+                <option>01 People</option>
+                <option>02 People</option>
+                <option>03 People</option>
+                <option>04 People</option>
+                <option>05 People</option>
+                <option>06 People</option>
+                <option>07 People</option>
+                <option>08 People</option>
+                <option>09 People</option>
+                <option>10 People</option>
+                <option>11 People</option>
+                <option>12 People</option>
+                <option>13 People</option>
+                <option>14 People</option>
+                <option>15 People</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td><label for="Date of Birth" class="det">Date of Birth</label></td>
+            <td><select Date of Birth="Date">
+                <option>01</option>
+                <option>02</option>
+                <option>03</option>
+                <option>04</option>
+                <option>05</option>
+                <option>06</option>
+                <option>07</option>
+                <option>08</option>
+                <option>09</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+                <option>13</option>
+                <option>14</option>
+                <option>15</option>
+                <option>16</option>
+                <option>17</option>
+                <option>18</option>
+                <option>19</option>
+                <option>20</option>
+                <option>21</option>
+                <option>22</option>
+                <option>23</option>
+                <option>24</option>
+                <option>25</option>
+                <option>26</option>
+                <option>27</option>
+                <option>28</option>
+                <option>29</option>
+                <option>30</option>
+                <option>31</option>
+            </select>
+            <select Date of Birth="Month">
+                <option>Jan</option>
+                <option>Feb</option>
+                <option>Mar</option>
+                <option>Apr</option>
+                <option>May</option>
+                <option>Jun</option>
+                <option>Jul</option>
+                <option>Aug</option>
+                <option>Sep</option>
+                <option>Oct</option>
+                <option>Nov</option>
+                <option>Dec</option>
+            </select>
+            <select Date of Birth="Year">
+                <option>2023</option>
+                <option>2024</option>
+                <option>2025</option>
+                <option>2026</option>
+                <option>2027</option>
+                <option>2028</option>
+                <option>2029</option>
+            </select></td>
+        </tr>
+        <center><section class="sub-btn">
+            <td>
+            <input type="Submit" value="Sign-up">
+            <input type="Reset" value="Cancel"></td>
+        </section></center>
+
+    </form>
+</table>
+
+    <footer7>
+        <section class="container">
+            <section class="sec aboutus">
+                <h2>About Us</h2>
+                <p><strong>Earl's Regency </strong>Hotel is a 5-star hotel located in Kandy, Sri Lanka. It is a luxurious hotel that offers spacious rooms, a spa, an outdoor pool, and a variety of dining options. The hotel is also home to a number of meeting and event spaces.</p>
+    
+                <ul class="sci">
+                    <li><a href="https://web.facebook.com/earlsregencyk"><img src="facebook.png"></i></a></li>
+                    <li><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjGxKXrnqGBAxVowjgGHe8cA50QFnoECBEQAQ&url=https%3A%2F%2Fwww.instagram.com%2Fearls.regency%2F&usg=AOvVaw0_ElgFTNNDsxToiG3fKb_j&opi=89978449"><img src="ig.png"></i></a></li>
+                    <li><a href="https://www.youtube.com/@user-kd8bh7ne8p"><img src="you.png"></i></a></li>
+                </ul>
+            </section>
+            <section class="sec quickLinks">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="https://www.aitkenspencehotels.com/earlsregency/">About</a></li>
+                    <li><a href="https://www.aitkenspencehotels.com/privacy-policy.html">Privacy Policy</a></li>
+                    <li><a href="https://www.aitkenspencehotels.com/earlsregency/sitemap.html">Help</a></li>
+                    <li><a href="https://www.aitkenspencehotels.com/terms-of-use.html">Terms & Conditions</a></li>
+                    <li><a href="https://www.aitkenspencehotels.com/earlsregency/contact-us.html">Contact</a></li>
+                </ul>
+            </section>
+            <section class="see contact">
+                <h2>Contact Info</h2>
+                <ul class="info">
+                    <li>
+                        <span><img src="map.png"></i></span>
+                        <span>Earl's Regency Hotel,<br>
+                        Kundasale, Kandy,<br>
+                        Sri Lanka</span>
+                    </li>
+                    <li>
+                        <span><img src="call.png"></i></span>
+                        <p><a href="+94 75 6335870">+94 81 2422122</a></p>
+                    </li>
+                    <li>
+                        <span><img src="mail.png"></i></span>
+                        <p><a href="nemsith13@gmail.com">erinfo@aitkenspence.lk</a></p>
+                    </li>
+                </ul>
+            </section>
+        </section>
+    </footer2>
+    <section class="copyrightText">
+        <p>Copyright © 2023 Earl's Regency. All Rights Reserved.</p>
+    </section>
+    </body>
+</html>
